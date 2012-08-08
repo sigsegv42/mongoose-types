@@ -6,7 +6,7 @@ var mongoose = require('mongoose')
 require("../").loadTypes(mongoose, 'email');
 
 var UserSchema = new Schema({
-  email: mongoose.SchemaTypes.Email
+  email: mongoose.Schema.Types.Email
 });
 
 mongoose.model('User', UserSchema);

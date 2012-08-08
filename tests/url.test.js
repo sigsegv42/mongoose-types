@@ -6,7 +6,7 @@ var mongoose = require('mongoose')
 require("../").loadTypes(mongoose, 'url');
 
 var WebpageSchema = new Schema({
-  url: mongoose.SchemaTypes.Url
+  url: mongoose.Schema.Types.Url
 });
 
 mongoose.model('Webpage', WebpageSchema);

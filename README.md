@@ -37,7 +37,7 @@ Once you are setup, you can begin to use the new types.
 
 #### Email
 
-    var Email = mongoose.SchemaTypes.Email;
+    var Email = mongoose.Schema.Types.Email;
     var UserSchema = new Schema({
       email: {
           work: Email
@@ -47,7 +47,7 @@ Once you are setup, you can begin to use the new types.
 
 #### Url
 
-    var Url = mongoose.SchemaTypes.Url;
+    var Url = mongoose.Schema.Types.Url;
     var VisitSchema = new Schema({
         url: Url
       , referer: Url
